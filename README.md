@@ -20,4 +20,7 @@ kubectl get namespaces
 kubectl run app-name image=image-name:tag --port=XXXX
 kubectl get deployments
 
+- with a file
+
+kubectl apply -f deployment.yaml
 
