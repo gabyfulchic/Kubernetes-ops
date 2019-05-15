@@ -42,7 +42,10 @@ Labels.
 
 You can add quotas by using "resources" in the namespace.yml file.
 But you also create a file with a kind : ResourceQuota and you gonna
-create it using kubectl create -f ./resourcequota.yml --namespace=namespace.
+create it using :
+>kubectl create -f ./resourcequota.yml --namespace=namespace  
+>kubectl get quota --namespace=namespace  
+>kubectl describe quota compute-resources-sample --namespace=namespace  
 
 ### Begin with Kubernetes and Docker ;)
 
