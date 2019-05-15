@@ -38,6 +38,12 @@ With that you can manipulate some services or pods grouping them by their
 Labels.  
 >kubectl -l run=it-prod-apps get services  
 
+### Quotas / Resources 
+
+You can add quotas by using "resources" in the namespace.yml file.
+But you also create a file with a kind : ResourceQuota and you gonna
+create it using kubectl create -f ./resourcequota.yml --namespace=namespace.
+
 ### Begin with Kubernetes and Docker ;)
 
 hello-world docker with k8s
