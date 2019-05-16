@@ -14,7 +14,17 @@ School project to load balance and make some HA on a cluster Kubernetes installe
 
 >Made by FULCHIC Gaby  
 
-## Some infos about Kubernetes
+## The project's core
+### To launch the project 👨🏼‍💻  
+
+>kubectl create -f hello-world/  
+
+### To stop it 🛑  
+
+>kubectl delete -f hello-world/  
+
+
+## More infos about Kubernetes for myself
 ### Global commands
 
 >kubectl version  
@@ -78,12 +88,3 @@ Get the ip exposed, there are 2 commands :
 Clean all :  
 >kubectl delete deployment test1234  
 >kubectl delete svc test1234  
-
-### To launch the project 👨🏼‍💻
-
->kubectl create -f hello-world/  
-
-### To stop it 🛑
-
->kubectl delete -f hello-world/
-
