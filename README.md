@@ -18,6 +18,7 @@ School project to load balance and make some HA on a cluster Kubernetes installe
 ### Global commands
 
 >kubectl version  
+>kubectl api-versions  
 >kubectl get nodes  
 
 ### Namespaces
@@ -58,18 +59,31 @@ create it using :
 >kubectl get quota --namespace=namespace  
 >kubectl describe quota compute-resources-sample --namespace=namespace  
 
+### Proxy
+
+>kubectl proxy  
+
 ### Begin with Kubernetes and Docker ;)
 
-hello-world docker with k8s
+Hello-world docker with k8s :  
 >kubectl run test1234 --image=library/hello-world --port=8080  
 
-expose it
+Expose it :  
 >kubectl expose deployment test1234 --type=LoadBalancer --port=8080 --target-port=8080  
 
-get the ip exposed
+Get the ip exposed, there are 2 commands :  
 >kubectl get svc  
+>kubectl get services  
 
-clean all
+Clean all :  
 >kubectl delete deployment test1234  
 >kubectl delete svc test1234  
+
+### To launch the project 👨🏼‍💻
+
+>kubectl create -f hello-world/  
+
+### To stop it 🛑
+
+>kubectl delete -f hello-world/
 
