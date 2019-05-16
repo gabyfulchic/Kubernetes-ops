@@ -54,11 +54,12 @@ School project to load balance and make some HA on a cluster Kubernetes installe
 
 ### Labels
 
-You can set Labels in yaml file :D.
-Like label: it-prod-apps :D
+You can set Labels in yaml file :D.  
+label: 
+       name: it-prod-apps  
 With that you can manipulate some services or pods grouping them by their
 Labels.  
->kubectl -l run=it-prod-apps get services  
+>kubectl -l name=it-prod-apps get services  
 
 ### Quotas / Resources 
 
