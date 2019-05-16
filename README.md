@@ -48,9 +48,9 @@ School project to load balance and make some HA on a cluster Kubernetes installe
 
 ### Services
 
->kubectl get services  
 >kubectl expose deployment test1234 --type=LoadBalancer --port=8080 --target-port=8080  
->kubectl describe services/hello-world-loadbalancer  
+>kubectl get services  
+>kubectl describe theservice  
 
 ### Labels
 
