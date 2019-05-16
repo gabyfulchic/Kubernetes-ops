@@ -1,6 +1,17 @@
 # Kubernetes-ops
 School project to load balance and make some HA on a cluster Kubernetes installed with kubespray-ops project.
 
+```
+     )               (       )               (     
+  ( /(        (      )\ ) ( /(      *   )    )\ )  
+  )\())  (  ( )\ (  (()/( )\())(  ` )  /((  (()/(  
+|((_)\   )\ )((_))\  /(_)|(_)\ )\  ( )(_))\  /(_)) 
+|_ ((_) ((_|(_)_((_)(_))  _((_|(_)(_(_()|(_)(_))   
+| |/ / | | || _ ) __| _ \| \| | __|_   _| __/ __|  
+  ' <| |_| || _ \ _||   /| .` | _|  | | | _|\__ \  
+ _|\_\\___/ |___/___|_|_\|_|\_|___| |_| |___|___/  
+ ```                                              
+
 >Made by FULCHIC Gaby  
 
 ## Some infos about Kubernetes
