@@ -35,7 +35,17 @@ School project to load balance and make some HA on a cluster Kubernetes installe
 
 >kubectl create -f ./gaby.yaml  
 >kubectl delete namespaces gaby.yaml  
->kubectl get namespaces  
+>kubectl get namespaces 
+
+- with a get pods  
+>kubectl get pods --namespace=gaby
+
+### Context to stop using --namespace (<-config)  
+
+>kubectl config view  
+>kubectl config current-context  
+>kubectl config set-context dev --namespace=yournamespace   
+>kubectl config use-context dev  
 
 ### Deployments
 
