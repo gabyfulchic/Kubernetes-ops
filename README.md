@@ -82,7 +82,11 @@ create it using :
 
 ### Proxy
 
->kubectl proxy  
+- To expose the API kube via a proxy  
+>kubectl proxy --port=8080  
+>curl http://localhost:8080/api/    
+- Get the pods from default namespaces for example  
+>curl http://localhost:8080/api/v1/namespaces/default/pods   
 
 ### Begin with Kubernetes and Docker ;)
 
