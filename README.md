@@ -88,7 +88,7 @@ create it using :
 - Get the pods from default namespaces for example  
 >curl http://localhost:8080/api/v1/namespaces/default/pods   
 
-### Begin with Kubernetes and Docker ;)
+### Begin with Kubernetes and Docker ✔️
 
 Hello-world docker with k8s :  
 >kubectl run test1234 --image=library/hello-world --port=8080  
