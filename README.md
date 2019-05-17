@@ -103,3 +103,9 @@ Get the ip exposed, there are 2 commands :
 Clean all :  
 >kubectl delete deployment test1234  
 >kubectl delete svc test1234  
+
+### To Monitor 📊
+
+- Konstellate : https://github.com/containership/konstellate  
+- Kubelet : https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/  
+- Prometheus : https://coreos.com/operators/prometheus/docs/latest/  
