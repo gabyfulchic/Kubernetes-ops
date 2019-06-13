@@ -33,8 +33,8 @@ School project to load balance and make some HA on a cluster Kubernetes installe
 
 ### Namespaces
 
->kubectl create -f ./gaby.yaml  
->kubectl delete namespaces gaby.yaml  
+>kubectl create -f ./gaby-namespace.yaml  
+>kubectl delete namespaces gaby-namespace.yaml  
 >kubectl get namespaces 
 
 - with a get pods  
